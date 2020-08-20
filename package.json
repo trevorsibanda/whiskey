@@ -1,0 +1,33 @@
+{
+  "name": "whiskey",
+  "version": "1.0.0",
+  "description": "Whiskey is the runtime environment based on Openwhisk for Faunadb playground.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trevorsibanda/whiskey.git"
+  },
+  "keywords": [
+    "openwhisk",
+    "faunadb",
+    "express"
+  ],
+  "author": "Trevor Sibanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorsibanda/whiskey/issues"
+  },
+  "homepage": "https://github.com/trevorsibanda/whiskey#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "faunadb": "^3.0.1",
+    "openwhisk": "^3.21.2",
+    "promise-retry": "^2.0.1",
+    "pusher": "^3.0.1",
+    "pusher-js": "^7.0.0",
+    "server": "^1.0.30"
+  }
+}
